@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+
+  /* GLOBALS */
+  --section-max-width: 1500px;
+  --section-min-height: 30rem;
+
+  --title-margin-top: .5rem;
+  --title-margin-bottom: .5rem;
+  --p-margin-top: .5rem;
+  --p-margin-top: .5rem;
+
+  --button-width: 8rem;
+  --button-height: 3rem;
+  --button-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.3);
+  --container-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.4);
+
+  --primary-color: #0C2156;
+  --secondary-color: #ffffff;
+  --text-primary-color: #0C2156;
+  --main-blue: #70A7FB;
+  --main-dark-blue: #1966D1;
+  --background-blue: #3483fa;
+  --soft-bg-gray: #f1f1f1;
+  --alert-color: #c45c5c;
+  --styled-blue: #3E83FE;
+  --styled-middle-blue: #42D7FF;
+  --styled-light-blue: #43F0FF;
+  --soft-lines-color: #DEE0E1;
+  --soft-color: #7b7b7b;
+
+  --general-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.3);
+
+  --titles-font: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
+  --text-font: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+
+h1, h2, h3, h4, h5, h6, p, button, a, span {
+  color: var(--text-primary-color);
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--titles-font);
+  line-height: 1;
+}
+
+p, button, a, span, label, option, select {
+  font-family: var(--text-font);
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+}
+
+/* REVISAR */
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
